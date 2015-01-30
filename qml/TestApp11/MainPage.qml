@@ -22,9 +22,6 @@ Page {
         // apply the current color to the color scheme, header image and header button
         theme.colorScheme=currentColor
         header.color = currentColor
-        //header.headerImage=AppConstants.ImagePrefix+currentColor+AppConstants.HeaderImageSuffix
-        //header.buttonBackground=AppConstants.ImagePrefix+currentColor+AppConstants.ButtonBackground
-        //header.buttonPressedBackground=AppConstants.ImagePrefix+currentColor+AppConstants.ButtonPressedBackground
 
         // set the clicked button as checked
         radio2.checked = currentColor==2
